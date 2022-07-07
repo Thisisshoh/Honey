@@ -1,0 +1,240 @@
+@import url(font.css);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body,
+button {
+  font-family: "Kodchasan";
+}
+.container-full {
+  width: 100%;
+  padding: 0 50px;
+}
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+.header__nav {
+  padding: 30px;
+}
+.header__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__navbar-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.header__navbar-link:hover{
+    color: #e58211;
+    transition: 0.2s;
+}
+
+.header__navbar-link {
+  margin-left: 40px;
+  color: black;
+  font-weight: 500;
+  font-size: 18px;
+}
+.header__navbar-link.active {
+  font-weight: 700;
+}
+.main__intro-content {
+  background-image: url(../Images/fon.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 865px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+}
+.main__intro-title {
+  display: flex;
+  flex-direction: column;
+  font-size: 100px;
+  font-weight: 700;
+  width: 427px;
+}
+.main__intro-title span:nth-child(2) {
+  align-self: flex-end;
+}
+.main__intro-item {
+  margin-top: 30px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.main__intro-btn {
+  outline: none;
+  padding: 18px 50px;
+  border: 2px solid black;
+  color: black;
+  background: transparent;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.main__intro-btn:hover{
+  transition: 0.2s;
+  color:black;
+  background: whitesmoke;
+}
+.btn-left {
+  margin-right: 30px;
+  background: black;
+  color: white;
+}
+.title {
+  font-weight: 700;
+  font-size: 45px;
+  color: black;
+}
+.title-height {
+  line-height: 65px;
+}
+.main__info {
+  margin-top: 130px;
+}
+.main__info-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 53px;
+  margin-bottom: 133px;
+}
+.main__info-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main__info-sub {
+  max-width: 548px;
+}
+.main__info-text {
+  font-size: 22px;
+  font-weight: 600;
+  color: black;
+  line-height: 35px;
+  margin: 30px 0 50px;
+}
+.main__info-btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 15px 40px;
+  background: #e58311;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+}
+.main__info-btn:hover{
+  background: black;
+}
+.main__info-content:nth-last-of-type(1) {
+  flex-direction: row-reverse;
+  margin-top: 102px;
+}
+.main__shop {
+  margin-top: 100px;
+}
+.main__shop-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main__shop-link {
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: underline;
+  color: #e58211;
+}
+.main__shop-bootom {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 130px;
+}
+.main__shop-block {
+  width: 558px;
+  height: 305px;
+  background: #e5821185;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main__shop-sub {
+  padding-left: 30px;
+}
+.main__shop-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: black;
+}
+.main__shop-img {
+  margin-right: 10px;
+}
+.main__shop-text {
+  font-weight: 600;
+  line-height: 25px;
+  color: black;
+  margin: 20px 0 30px;
+}
+.main__shop-btn {
+  border: 2px solid #e58211;
+  color: #e58211;
+  font-size: 18px;
+  font-weight: 700;
+  outline: none;
+  padding: 10px 30px;
+  background: transparent;
+  cursor: pointer;
+}
+.main__shop-btn:hover{
+  color: black;
+}
+.footer {
+  background: linear-gradient(76.02deg, #ff9d2d 1.66%, #ffd877 93.21%);
+}
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 48px 0;
+}
+.footer__content-left,
+.footer__content-center,
+.footer__content-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__content-text {
+  max-width: 270px;
+  color: black;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+}
+.footer__content-center {
+  gap: 40px;
+  cursor: pointer;
+}
+.footer__content-right {
+  gap: 20px;
+  cursor: pointer;
+}
